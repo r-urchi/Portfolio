@@ -1,5 +1,8 @@
 @media (max-width: 700px)
 
+  .contactos a
+    font-size: 15px
+
   .menu-btn
     display: block
   
@@ -11,7 +14,7 @@
     background: #000
     height: 100%
     transform: translateX(-400px)
-    padding: 30px
+    padding: 70px 50px 30px 30px
     opacity: .9
     transition: transform .5s ease-in-out
   
@@ -26,3 +29,32 @@
     color: #fff
     &:hover
       border-bottom: 2px solid #fff
+
+  .header__items
+    width: 100%
+    margin: 10px 0
+
+  .porfolio__item img
+    width: 100%
+
+  .redes-sociales__enlace
+    margin: 10px
+
+@media (max-width: 400px)
+
+  .contactos
+    display: flex
+    flex-direction: column
+    a
+      font-size: 14px
+
+  .span
+    display: none
+
+  footer .redes-sociales a i
+    line-height: 45px
+
+  .redes-sociales__enlace
+    margin: 5px
+    width: 45px
+    height: 45px

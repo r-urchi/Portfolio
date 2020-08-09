@@ -103,6 +103,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  flex-wrap: wrap;
   border-radius: 5px;
 }
 
@@ -143,6 +144,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .porfolio__item {
@@ -156,7 +158,7 @@ ul {
   text-align: center;
 }
 .porfolio__item img {
-  width: 250px;
+  width: 280px;
   margin-bottom: 10px;
   transition: 0.3s all ease;
 }
@@ -212,6 +214,10 @@ footer .redes-sociales a i {
 }
 
 @media (max-width: 700px) {
+  .contactos a {
+    font-size: 15px;
+  }
+
   .menu-btn {
     display: block;
   }
@@ -224,7 +230,7 @@ footer .redes-sociales a i {
     background: #000;
     height: 100%;
     transform: translateX(-400px);
-    padding: 30px;
+    padding: 70px 50px 30px 30px;
     opacity: 0.9;
     transition: transform 0.5s ease-in-out;
   }
@@ -243,6 +249,42 @@ footer .redes-sociales a i {
   }
   .nav__enlace:hover {
     border-bottom: 2px solid #fff;
+  }
+
+  .header__items {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .porfolio__item img {
+    width: 100%;
+  }
+
+  .redes-sociales__enlace {
+    margin: 10px;
+  }
+}
+@media (max-width: 400px) {
+  .contactos {
+    display: flex;
+    flex-direction: column;
+  }
+  .contactos a {
+    font-size: 14px;
+  }
+
+  .span {
+    display: none;
+  }
+
+  footer .redes-sociales a i {
+    line-height: 45px;
+  }
+
+  .redes-sociales__enlace {
+    margin: 5px;
+    width: 45px;
+    height: 45px;
   }
 }
 
