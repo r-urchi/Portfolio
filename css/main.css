@@ -95,7 +95,7 @@ ul {
 }
 
 .header__subtitulo {
-  margin-bottom: 30px;
+  padding-bottom: 15px;
 }
 
 .header__contenedor-items {
@@ -103,7 +103,6 @@ ul {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  background: #000;
   border-radius: 5px;
 }
 
@@ -122,18 +121,22 @@ ul {
   margin-bottom: 10px;
 }
 .header__items p {
-  color: #fff;
+  color: #000;
+  font-size: 15px;
 }
 
 .portfolio {
   width: 100%;
   height: 100%;
+  background: #000;
+  border-radius: 5px;
 }
 
 .portfolio__titulo {
   font-size: 30px;
   text-align: center;
-  margin-top: 30px;
+  padding-top: 25px;
+  color: #fff;
 }
 
 .portfolio__contenedor {
@@ -147,7 +150,7 @@ ul {
   flex-direction: column;
   align-items: center;
   margin: 20px 10px;
-  transition: 0.3s all ease;
+  overflow: hidden;
 }
 .porfolio__item a {
   text-align: center;
@@ -155,9 +158,19 @@ ul {
 .porfolio__item img {
   width: 250px;
   margin-bottom: 10px;
+  transition: 0.3s all ease;
 }
-.porfolio__item:hover {
-  transform: scale(1.25);
+.porfolio__item img:hover {
+  transform: scale(1.1);
+}
+
+.portfolio__enlace {
+  padding: 3px;
+  transition: 0.3s all ease;
+  color: #fff;
+}
+.portfolio__enlace:hover {
+  color: #817A94;
 }
 
 footer .redes-sociales {
