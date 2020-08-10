@@ -11,14 +11,28 @@
     color: #fff
 
 .portfolio__contenedor
+    display: -webkit-box
+    display: -ms-flexbox
     display: flex
+    -webkit-box-pack: center
+    -ms-flex-pack: center
     justify-content: center
+    -webkit-box-align: center
+    -ms-flex-align: center
     align-items: center
+    -ms-flex-wrap: wrap
     flex-wrap: wrap
 
 .porfolio__item
+    display: -webkit-box
+    display: -ms-flexbox
     display: flex
+    -webkit-box-orient: vertical
+    -webkit-box-direction: normal
+    -ms-flex-direction: column
     flex-direction: column
+    -webkit-box-align: center
+    -ms-flex-align: center
     align-items: center
     margin: 20px 10px
     overflow: hidden
@@ -27,12 +41,18 @@
     img
         width: 280px
         margin-bottom: 10px
+        -webkit-transition: .3s all ease
+        -o-transition: .3s all ease
         transition: .3s all ease
         &:hover
+            -webkit-transform: scale(1.1)            
+            -ms-transform: scale(1.1)            
             transform: scale(1.1)
 
 .portfolio__enlace
     padding: 3px
+    -webkit-transition: .3s all ease
+    -o-transition: .3s all ease
     transition: .3s all ease
     color: #fff
     &:hover
