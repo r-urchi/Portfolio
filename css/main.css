@@ -213,6 +213,31 @@ ul {
   color: #817A94;
 }
 
+.cv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cv .cv__boton a {
+  display: inline-block;
+  text-align: center;
+  line-height: 70px;
+  width: 350px;
+  height: 70px;
+  margin: 45px 0 20px 0;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 12px 0px rgba(0, 0, 0, 0.42);
+  background: #817A94;
+  color: #fff;
+  transition: 0.3s ease all;
+  cursor: pointer;
+}
+.cv .cv__boton a:hover {
+  background: #000;
+}
+
 footer .redes-sociales {
   display: -webkit-box;
   display: -ms-flexbox;
