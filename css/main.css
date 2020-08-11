@@ -128,7 +128,7 @@ ul {
 .header__items {
   width: 30%;
   padding: 15px;
-  margin: 35px 0;
+  margin: 20px 0;
 }
 .header__items i {
   font-size: 45px;
@@ -225,7 +225,7 @@ ul {
   line-height: 70px;
   width: 350px;
   height: 70px;
-  margin: 45px 0 20px 0;
+  margin-bottom: 35px;
   border: none;
   border-radius: 5px;
   box-shadow: 2px 2px 12px 0px rgba(0, 0, 0, 0.42);
@@ -335,19 +335,14 @@ footer .redes-sociales a i {
   }
 }
 @media (max-width: 400px) {
-  .cv {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
   .cv .cv__boton a {
-    display: inline-block;
-    text-align: center;
     line-height: 70px;
     width: 200px;
     height: 70px;
-    margin: 45px auto 20px auto;
+  }
+
+  .header__items i {
+    font-size: 37px;
   }
 
   .contactos {
