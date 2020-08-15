@@ -47,6 +47,29 @@
   .redes-sociales__enlace
     margin: 10px
 
+  .curriculum__articulo
+    width: 100%
+    height: 100%
+    display: flex
+    justify-content: center
+    flex-direction: column
+    align-items: center
+    transition: .2s all ease
+    &:hover
+        background: rgba(0, 0, 0, .1)
+    .curriculum__titulo
+      width: 90%
+      text-align: center
+    .curriculum__descripcion
+      width: 90%
+
+  .curriculum__articulo .curriculum__descripcion-listas
+      width: 90%
+      flex-direction: column
+      align-items: flex-start
+      .curriculum__grupo
+        margin-bottom: 18px
+
 @media (max-width: 400px)
 
   .cv .cv__boton a
