@@ -127,8 +127,10 @@ ul {
 
 .header__items {
   width: 30%;
+  height: 225px;
   padding: 15px;
   margin: 20px 0;
+  transition: 0.2s all ease;
 }
 .header__items i {
   font-size: 45px;
@@ -142,6 +144,10 @@ ul {
 .header__items p {
   color: #000;
   font-size: 15px;
+  transition: 0.2s all ease;
+}
+.header__items:hover {
+  background: rgba(0, 0, 0, 0.1);
 }
 
 .portfolio {
@@ -253,18 +259,41 @@ ul {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  transition: 0.2s all ease;
+}
+.curriculum__articulo:hover {
+  background: rgba(0, 0, 0, 0.1);
 }
 
 .curriculum__titulo {
   width: 20%;
   padding: 30px 0;
 }
+.curriculum__titulo h3 {
+  font-size: 23px;
+}
+.curriculum__titulo h3 i {
+  color: #817A94;
+  font-size: 23px;
+}
 
 .curriculum__descripcion {
   width: 75%;
   padding: 30px 0;
 }
+.curriculum__descripcion h4 {
+  font-size: 18px;
+}
 .curriculum__descripcion p {
+  margin-top: 20px;
+  font-size: 15px;
+}
+.curriculum__descripcion p a {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.curriculum__segundo-titulo {
   margin-top: 20px;
 }
 
@@ -277,6 +306,10 @@ ul {
 }
 .curriculum__articulo .curriculum__descripcion-listas ul {
   margin-top: 20px;
+}
+
+.curriculum__grupo h4 {
+  font-size: 18px;
 }
 
 footer .redes-sociales {
