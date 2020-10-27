@@ -238,13 +238,13 @@ ul {
   border: none;
   border-radius: 5px;
   box-shadow: 2px 2px 12px 0px rgba(0, 0, 0, 0.42);
-  background: #d6182a;
+  background: linear-gradient(90deg, #ff1f75, #ff4746);
   color: #fff;
   transition: 0.3s ease all;
   cursor: pointer;
 }
 .cv .cv__boton a:hover {
-  background: #ff70a7;
+  background: linear-gradient(90deg, #fc5e9b, #f56161);
 }
 
 .curriculum {
@@ -340,7 +340,7 @@ footer .redes-sociales a i {
   display: block;
   width: 60px;
   height: 60px;
-  background: #d6182a;
+  background: linear-gradient(90deg, #ff1f75, #ff4746);
   color: #fff;
   margin: 20px;
   text-align: center;
@@ -351,7 +351,7 @@ footer .redes-sociales a i {
 }
 
 .redes-sociales__contenedor-icono:hover a {
-  background: #ff70a7;
+  background: linear-gradient(90deg, #fc5e9b, #f56161);
 }
 
 @media screen and (max-width: 900px) {
