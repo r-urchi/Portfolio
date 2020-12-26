@@ -9,3 +9,6 @@ navMenu.addEventListener('click', () => {
   navMenu.classList.remove('show');
 });
 
+window.addEventListener('scroll', () => {
+  navMenu.classList.remove('show');
+})
