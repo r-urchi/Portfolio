@@ -422,7 +422,7 @@ footer .redes-sociales a i {
     transition: 0.2s all ease;
   }
   .curriculum__articulo:hover {
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.1);
   }
   .curriculum__articulo .curriculum__titulo {
     width: 90%;
